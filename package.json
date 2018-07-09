@@ -1,0 +1,46 @@
+{
+  "name": "yaml-watch",
+  "version": "0.1.0",
+  "description": "Watch .yml files and compile to .json on save via CLI.",
+  "main": "index.js",
+  "author": "Gabriel Toll Stålbom <gabtost@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "yaml",
+    "cli",
+    "watch",
+    "parser"
+  ],
+  "homepage": "https://github.com/gabbes/yaml-watch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabbes/yaml-watch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabbes/yaml-watch/issues"
+  },
+  "bin": {
+    "yaml-watch": "./bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "yaml-watch.js",
+    "lib/",
+    "tasks/",
+    "bin/"
+  ],
+  "scripts": {
+    "format": "prettier \"./**/*.js\" --write"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.4",
+    "js-yaml": "^3.12.0",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "prettier": "^1.13.7"
+  }
+}

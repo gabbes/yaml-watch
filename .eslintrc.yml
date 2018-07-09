@@ -1,0 +1,21 @@
+extends: airbnb-base
+
+rules:
+
+  # Looks cleaner
+  arrow-parens:
+    - error
+    - as-needed
+
+  # No dangling allowed!
+  comma-dangle:
+    - error
+    - never
+
+  # Hmm, kind of useful for a CLI ;D
+  no-console:
+    - allow
+    - log
+
+  # Funky warnings if this is enabled
+  strict: 0

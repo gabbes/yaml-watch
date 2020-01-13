@@ -11,13 +11,13 @@
     "watch",
     "parser"
   ],
-  "homepage": "https://github.com/gabbes/yaml-watch#readme",
+  "homepage": "https://github.com/gabts/yaml-watch#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabbes/yaml-watch.git"
+    "url": "git+https://github.com/gabts/yaml-watch.git"
   },
   "bugs": {
-    "url": "https://github.com/gabbes/yaml-watch/issues"
+    "url": "https://github.com/gabts/yaml-watch/issues"
   },
   "bin": {
     "yaml-watch": "./bin/cli.js"
